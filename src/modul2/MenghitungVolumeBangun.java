@@ -29,7 +29,7 @@ public class MenghitungVolumeBangun {
         Scanner input = new Scanner(System.in);
         
         String status = "";
-        double hasil = 0;
+        double hasil = 0.0;
         try {
             System.out.println("======== Pilihan ========\n"
                     + "1. Luas Lingkaran\n"
@@ -54,7 +54,7 @@ public class MenghitungVolumeBangun {
                     System.out.print("Masukkan Tinggi   : ");
                     double tinggi2 = input.nextDouble();
                     hasil = pp.Volume_Tabung(diameter2, tinggi2);
-                    status = "Menghitung Volume Tinggi";
+                    status = "Menghitung Volume Tabung";
                     break;
                 case 3:
                     System.out.print("Masukkan Diameter : ");
