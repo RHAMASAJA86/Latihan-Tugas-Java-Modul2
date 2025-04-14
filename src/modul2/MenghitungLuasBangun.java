@@ -23,7 +23,7 @@ public class MenghitungLuasBangun {
         MenghitungLuasBangun count = new MenghitungLuasBangun();
         
         try {
-            double total = 0;
+            double total = 0.0;
             String jenis = "";
             int Pilihan = Integer.parseInt(JOptionPane.showInputDialog("Pilihan : \n" 
                     + "1. Luas Persegi Panjang\n"
